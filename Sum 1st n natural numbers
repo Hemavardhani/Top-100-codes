@@ -3,7 +3,17 @@
     printf("enter number to find sum of n natural numbers\n");
     scanf("%d",&n);
     printf("Sum of 1st n natural numbers is : %d ",n*(n+1)/2);
-    ////////process for n(n+1)/2 is 1+2+-------+n
+
+       OR
+
+int sumN(int n,int sum)
+{
+if(n==0){
+return sum;
+}
+return n+sumN(n-1,sum);
+
+////////process for n(n+1)/2 is 1+2+-------+n
 write i reverse order n+n-1+n-2+---------1
 add abive both 
 that gives n(n+1)/2;
