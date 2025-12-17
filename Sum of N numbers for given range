@@ -1,0 +1,10 @@
+int n,m;
+    printf("enter number to find sum n numbers within range\n");
+    scanf("%d",&n);
+    scanf("%d",&m);
+    
+    printf("Sum of n  natural numbers in the given range is :%d\n",n*(n+1)/2-(m*(m+1)/2)+m);
+
+OR
+
+n*(n+1)/2-m*(m-1)/2
