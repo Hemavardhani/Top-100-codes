@@ -1,0 +1,13 @@
+ int n;
+    printf("enter a numebr even or odd\n");
+    scanf("%d",&n);
+    if(n&1)
+    {
+        printf("Odd \n");
+    }
+    else
+    {
+        printf("even");
+    }
+    
+    
