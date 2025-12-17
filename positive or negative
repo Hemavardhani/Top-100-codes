@@ -1,0 +1,16 @@
+int n;
+    printf("enter a numebr to verify positive or negative");
+    scanf("%d",&n);
+    if(n==0)
+    {
+    
+        printf("Equal to 0");
+    }
+    else
+    {
+    
+    (n>0)? printf("greater than 0") : printf("less than 0");
+    }
+    
+    
+    
