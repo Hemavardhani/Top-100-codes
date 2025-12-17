@@ -1,0 +1,13 @@
+int n,m,x;
+    printf("enter numbers to find greatest of 3 numbers\n");
+    scanf("%d",&n);
+    scanf("%d",&m);
+    scanf("%d",&x);
+    
+    int temp,res;
+    
+    temp=n>m? n:m;
+    res=temp>x? temp:x;
+    
+    printf("%d",res);
+    
