@@ -1,0 +1,11 @@
+int n,m;
+    printf("enter number to find sum n numbers within range\n");
+    scanf("%d",&n);
+    scanf("%d",&m);
+    
+   if(m==n)
+ print("equal")
+else
+{
+(m>n) ? print(m is greater): print(n is greater);
+}
